@@ -1,7 +1,7 @@
-# PythonProjekt
+# BasicPythonProjekt
 Problem sets solved on Python
 
-Problem 1: Write a programme that takes a mathematical expression as an input (using Input command) and produces the outcome as an output. The mathematical expression can only contain 1-digit numbers, the addition operator '+' and multiplication operator '*' 
+Problem 1: Write a programme that takes a mathematical expression as an input (using Input command) and returns the outcome. The mathematical expression can only contain 1-digit numbers, the addition operator '+' and multiplication operator '*' 
 a = input()
 c = []
 i = 0
