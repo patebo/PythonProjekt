@@ -1,6 +1,15 @@
+# Design a function parse_time which takes a string containing a description of a (relative) time and returns a Python datetime or time structure as appropriate. 
+# See the Python datetime module. For example: parse_time("four o'clock") should return datetime.time(4, 0)
+# Begin by writing a full set of unit tests. Your function should at least be able to parse the following strings:
+
+#four o'clock
+#ten past two
+#five to ten
+#a quarter to three
+#ten minutes ago
+#in twenty minutes' time
+
 from datetime import time, date, timedelta, datetime
-
-
 
 def parse_time(txt):
     #parses the time in a string and give an output of the form datetime.time
